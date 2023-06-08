@@ -129,7 +129,7 @@ footer a {
   margin: 0 1rem 3rem 1rem;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   nav ul {
   padding: 0;
   margin: 0;
@@ -168,7 +168,7 @@ footer a {
     text-align: center;
     border-top: none;}
 }
-@media (min-width: 420px) and (max-width: 768px) {
+@media (min-width: 520px) and (max-width: 768px) {
   .tablet {
     display: block; }
   .mobile {
@@ -273,7 +273,7 @@ article img{
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   nav ul {
   padding: 0;
   margin: 0;
@@ -317,7 +317,7 @@ article {
 }
 }
 
-@media (min-width: 420px) and (max-width: 768px) {
+@media (min-width: 520px) and (max-width: 768px) {
   article {
     box-sizing: border-box;
     margin-top: 5rem;
@@ -336,7 +336,7 @@ article {
 }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     nav ul {
       padding: 0;
       margin: 0;
