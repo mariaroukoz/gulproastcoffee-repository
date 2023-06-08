@@ -154,6 +154,11 @@ footer a {
   flex-basis: 25%;
   background-color: white;
 }
+
+figure img {
+  display: center; }
+
+
   .mobile {
     display: block;
   }
@@ -167,7 +172,7 @@ footer a {
     color: #f2f2f2;
     text-align: center;
     border-top: none;}
-}
+  }
 @media (min-width: 520px) and (max-width: 768px) {
   .tablet {
     display: block; }
@@ -183,12 +188,16 @@ footer a {
   margin: 3rem 0 0 0 ;
   flex-basis: 35%;
   padding-top: 4rem; }
-}
+
 figure img {
   display: flex;
   align-items: center;
+  width: 100%;
 }
-
+.main-bkgd {
+  padding-bottom: 300px;
+}
+}
 @media (min-width: 769px) {
   .desktop {
     display: block;
@@ -234,8 +243,12 @@ figure {
   }
   i {
     padding: 0.5rem; }
+    
+  figure {
+      margin-top: 10rem;
+      
   }
-
+}
 /*for products page*/
 
 .main-bkgd {
